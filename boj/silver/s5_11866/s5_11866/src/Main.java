@@ -21,7 +21,7 @@ public class Main {
         k = scanner.nextInt();
 
         /*queue에 값 집어넣음*/
-        for(i=1; i<=n; i++){
+        for(i=1; i<=n+1; i++){
             queue.offer(i);
         }
         sb.append("<");
